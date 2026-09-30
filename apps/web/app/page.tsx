@@ -15,8 +15,8 @@ export default function Home() {
           priority
         />
         <ol>
-          <li>
-            Get started by editing <code>app/page.tsx</code>
+          <li role="heading" aria-level={1}>
+            EM Hackathon
           </li>
           <li>Save and see your changes instantly.</li>
         </ol>
