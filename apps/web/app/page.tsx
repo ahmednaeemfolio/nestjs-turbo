@@ -14,6 +14,8 @@ export default function Home() {
           height={38}
           priority
         />
+        {/* The homepage's single native level-one heading. */}
+        <h1>EM Hackathon</h1>
         <ol>
           <li>
             Get started by editing <code>app/page.tsx</code>
