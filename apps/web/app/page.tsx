@@ -6,6 +6,8 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
+        {/* The root page has one visible, native main heading. */}
+        <h1>EM Hackathon</h1>
         <Image
           className={styles.logo}
           src="/next.svg"
