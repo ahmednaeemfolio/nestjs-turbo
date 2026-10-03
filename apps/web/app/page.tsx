@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
+        <h1>EM Hackathon</h1>
         <Image
           className={styles.logo}
           src="/next.svg"
@@ -75,7 +76,7 @@ export default function Home() {
             src="/window.svg"
             alt="Window icon"
             width={16}
-            height={16}
+                     height={16}
           />
           Examples
         </a>
