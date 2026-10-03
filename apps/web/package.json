@@ -7,7 +7,8 @@
     "dev": "next dev --turbo --port 4000",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint \"{src,app,test}/**/*.{ts,tsx}\" --fix"
+    "lint": "eslint \"{src,app,test}/**/*.{ts,tsx}\" --fix",
+    "test:spec": "echo \"No test runner configured for apps/web; app/page.test.tsx is documentation/spec only.\""
   },
   "dependencies": {
     "@repo/ui": "workspace:*",
